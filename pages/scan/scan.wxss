@@ -1,0 +1,27 @@
+/* pages/scan/scan.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.password,.tip,.tip-pro{
+  width: 100%;
+  flex: 1;
+  text-align: center;
+}
+
+.password-num {
+  flex:8;
+  font-size: 200rpx;
+  line-height: 200rpx;
+  padding-top: 300rpx;
+}
+
+.tip-req{
+  color:#b9dd08;
+  font-size: 32rpx;
+}

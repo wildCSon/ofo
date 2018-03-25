@@ -1,0 +1,17 @@
+<!--pages/user/user.wxml-->
+<view class='container'>
+  <view class='userInfo'>
+    <block wx:if = "{{isShow}}">
+      <image src='{{userInfo.avaterUrl}}'></image>
+    </block>
+    <text>{{userInfo.nickName}}</text>
+  </view>
+  <view class='wallet'>
+    <block wx:if = "{{isShow}}">
+      <text>我的钱包</text>
+    </block>
+  </view>
+  <view class='login'>
+    <button type='{{btntype}}' bindtap='login'>{{text}}</button>
+  </view>
+</view>

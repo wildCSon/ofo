@@ -1,0 +1,17 @@
+<!--pages/scan/scan.wxml-->
+<!-- <text>pages/scan/scan.wxml</text> -->
+<view class='container'>
+  <view class='password'>
+    <text>开锁密码</text>
+  </view>
+  <view class='password-num'>
+    <text>{{pass}}</text>
+  </view>
+  <view class='tip'>
+    <text>请使用密码解锁，{{time}}秒后开始计费</text>
+  </view>
+  <view class='tip-pro'>
+    车辆有问题？
+    <text class='tip-req' bindtap='bindtap'>请返回首页报修</text>
+  </view>
+</view>

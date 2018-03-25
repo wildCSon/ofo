@@ -1,0 +1,89 @@
+/* pages/warn/warn.wxss */
+.container{
+  background-color: #f2f2f2;
+}
+.choose{
+  background-color: #fff;
+}
+.title{
+  background-color: #f2f2f2;
+  padding: 30rpx 0 30rpx 40rpx;
+  font-size: 28rpx;
+}
+
+.choose checkbox-group{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  padding: 50rpx;
+}
+
+.choose checkbox-group .checkbox{
+  width: 45%;
+  height: 100rpx;
+  margin-top: 36rpx;
+  border: 1rpx solid yellow;
+  border-radius: 12rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.choose checkbox-group .checkbox:nth-child(1),.choose checkbox-group .checkbox:nth-child(2){
+  margin-top: 0;
+}
+
+.actions .actions-pics{
+  background-color: #fff;
+  padding: 40rpx 0 40rpx 40rpx;
+}
+
+.actions .actions-pics image{
+  position: relative;
+  width:120rpx;
+  height: 120rpx;
+  margin-left: 25rpx;
+   overflow: visible;  
+  vertical-align: top; 
+}
+
+.actions .actions-pics image icon{
+   position: absolute; 
+  right: -10rpx;
+  top:-10rpx;
+}
+
+.actions .actions-pics .add{
+  display: inline-block;
+  height: 120rpx;
+  width:120rpx;
+  border: 1rpx dashed #ccc;
+  margin-left: 25rpx;
+  font-size: 28rpx;
+  color: #ccc;
+  line-height: 120rpx;
+  text-align: center;
+}
+
+.actions .actions-input{
+  background-color: #fff;
+  padding: 40rpx 0 40rpx 40rpx; 
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.actions .actions-input input{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  width: 90%;
+}
+
+.actions .actions-input input:nth-child(1){
+  border-bottom: 1px solid #ccc;
+}
+
+.submit{
+  width: 90%;
+  margin-left: 5%;
+  padding: 40rpx 0;
+}
+
